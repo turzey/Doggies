@@ -1,0 +1,50 @@
+html {
+    box-sizing: border-box;
+  }
+  /* inherit border-box on all elements in the universe and before and after
+   */
+  *, 
+  *:before, 
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    font-family: Arial, Geneva, sans-serif;
+    background-color: aqua;
+    
+    
+}
+
+h1{
+  font-style: italic;
+  font-weight: bolder;
+  
+  
+}
+.wrapper {
+
+  display: grid;
+  width: 97%;
+	max-width: 1200px;
+	margin: 0 auto;
+	float: none;
+	background-color: #fff;
+}
+
+
+.firstbox {
+
+  text-decoration-color: black;
+  text-size-adjust: 10px;
+  
+}
+
+.add-doggo {
+
+  text-emphasis-color: black;
+}
+
+.add-dogg :hover {
+  background-color:crimson ;
+}
